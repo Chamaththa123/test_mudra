@@ -1,39 +1,3 @@
-@property --hero-c1 {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #f1b323;
-}
-
-@property --hero-c2 {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #f15ba3;
-}
-
-@property --hero-c3 {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #f35190;
-}
-
-@property --hero-c4 {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #f1b323;
-}
-
-@property --hero-c5 {
-  syntax: '<color>';
-  inherits: false;
-  initial-value: #00c8ff;
-}
-
-@property --hero-angle {
-  syntax: '<angle>';
-  inherits: false;
-  initial-value: 90deg;
-}
-
 /* Remove default margin/padding so hero and sections sit flush with the viewport */
 html {
   scroll-padding-top: 88px;
@@ -438,91 +402,25 @@ body {
   padding: 24px 0;
   background:
     linear-gradient(
-      var(--hero-angle),
-      var(--hero-c1) 0%,
-      var(--hero-c2) 25%,
-      var(--hero-c3) 50%,
-      var(--hero-c4) 75%,
-      var(--hero-c5) 100%
+      90deg,
+      #ff00ff 0%,
+      #d400ff 25%,
+      #8a2be2 50%,
+      #911cff 75%,
+      #b566ff 100%
     ),
     linear-gradient(#555, #555);
   background-blend-mode: multiply;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0.95;
-  animation: hero-text-gradient 30s ease infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .site-hero-title {
-    animation: none;
-  }
+  opacity: 0.85;
 }
 
 .site-hero-title-line {
   display: block;
   width: max-content;
   max-width: 100%;
-}
-
-@keyframes hero-text-gradient {
-  0% {
-    --hero-c1: #f1b323;
-    --hero-c2: #f15ba3;
-    --hero-c3: #f35190;
-    --hero-c4: #f1b323;
-    --hero-c5: #00c8ff;
-    --hero-angle: 90deg;
-  }
-  16.67% {
-    --hero-c1: #f1a033;
-    --hero-c2: #e04d93;
-    --hero-c3: #a855e8;
-    --hero-c4: #f15ba3;
-    --hero-c5: #0ab4e8;
-    --hero-angle: 112deg;
-  }
-  33.33% {
-    --hero-c1: #f15ba3;
-    --hero-c2: #f1b323;
-    --hero-c3: #5d51f3;
-    --hero-c4: #f15ba3;
-    --hero-c5: #11bbe9;
-    --hero-angle: 135deg;
-  }
-  50% {
-    --hero-c1: #f15ba3;
-    --hero-c2: #f1b323;
-    --hero-c3: #51e6f3;
-    --hero-c4: #f15ba3;
-    --hero-c5: #11bbe9;
-    --hero-angle: 157deg;
-  }
-  66.67% {
-    --hero-c1: #f15ba3;
-    --hero-c2: #e0a030;
-    --hero-c3: #5d51f3;
-    --hero-c4: #f1b323;
-    --hero-c5: #11bbe9;
-    --hero-angle: 180deg;
-  }
-  83.33% {
-    --hero-c1: #e8a02a;
-    --hero-c2: #f15ba3;
-    --hero-c3: #c44ddb;
-    --hero-c4: #f1b323;
-    --hero-c5: #05d4ff;
-    --hero-angle: 135deg;
-  }
-  100% {
-    --hero-c1: #f1b323;
-    --hero-c2: #f15ba3;
-    --hero-c3: #f35190;
-    --hero-c4: #f1b323;
-    --hero-c5: #00c8ff;
-    --hero-angle: 90deg;
-  }
 }
 
 /* Header wordmark still uses this class */
