@@ -1,0 +1,263 @@
+
+
+/* Mobile – base (covers all mobile widths up to 576px) */
+@media (max-width: 576px) {
+
+  .button-wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 104px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Buttons-primary {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 44px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 32px;
+    border-radius: 36px;
+    background-color: #2b2b2b;
+    box-sizing: border-box;
+  }
+  .Primary {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: 16px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #fff;
+  }
+  .Buttons-secondary {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 44px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 36px;
+    border: solid 1px #533afd;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  .Secondary {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: 16px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #533afd;
+  }
+  .Placeholder {
+    height: 401px;
+    align-self: stretch;
+    flex-grow: 0;
+    border-radius: 16px;
+    background-color: #d9d9d9;
+  }
+  /* section 9 */
+  .Section-9 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 1001px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 32px;
+    padding: 80px 32px;
+    box-sizing: border-box;
+    background-color: rgba(246, 249, 252, 0.25);
+  }
+  .Content-9 {
+    height: 458px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 0;
+  }
+  .Start-building-with-trust-in-place {
+    height: 144px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #0a0a0a;
+  }
+  .Start-building-with-trust-in-place .text-style-1 {
+    color: #7e858b;
+  }
+  .Create-an-account-get-your-keys-and-integrate-MudraID-into-your-agent-runtime-or-your-verification {
+    height: 72px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #0a0a0a;
+  }
+
+    /* section 10 */
+    .Section-10 {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      min-height: 1185px;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 32px;
+      padding: 80px 32px;
+      box-sizing: border-box;
+      background-color: rgba(246, 249, 252, 0.25);
+    }
+    .Content-10 {
+      height: 592px;
+      align-self: stretch;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      gap: 40px;
+      padding: 0;
+    }
+
+  .Build-for-a-future-where-agents-and-websites-interact-securely-at-scale {
+    height: 384px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #0a0a0a;
+  }
+  .Build-for-a-future-where-agents-and-websites-interact-securely-at-scale .text-style-1 {
+    color: #7e858b;
+  }
+  .Explore-the-system-Review-the-model-Create-an-account-when-youre-ready {
+    height: 48px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #0a0a0a;
+  }
+
+  .site-hero-content {
+    padding: 48px 24px 56px;
+  }
+
+  .site-hero-copy {
+    max-width: 100%;
+  }
+
+  .site-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .site-hero-dashboard {
+    right: 16px;
+    max-width: min(360px, 72vw);
+  }
+
+  .site-header-inner {
+    padding: 12px 24px;
+  }
+
+  .site-header-nav {
+    gap: 6px 12px;
+    justify-content: flex-end;
+  }
+
+  .site-header-link,
+  .site-header-cta {
+    font-size: 14px;
+  }
+
+  .site-header-cta {
+    padding: 8px 16px;
+  }
+
+  .site-header-logo-text {
+    font-size: 18px;
+  }
+}
+
+/* Very small mobile (e.g. 320px–380px) – tighter spacing */
+@media (max-width: 400px) {
+  
+}
